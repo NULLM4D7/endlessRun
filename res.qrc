@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>pic/xiaoBird.png</file>
+        <file>pic/xiaoBirdF.png</file>
+        <file>pic/dls0.jpg</file>
+        <file>pic/dls1.jpg</file>
+        <file>pic/dls2.jpg</file>
+        <file>pic/dls3.jpg</file>
+        <file>pic/mat1.jpg</file>
+        <file>pic/mat2.jpg</file>
+        <file>pic/mat3.jpg</file>
+        <file>pic/shield.png</file>
+        <file>pic/downA.png</file>
+        <file>pic/upA.png</file>
+        <file>mp3/flip.wav</file>
+        <file>mp3/attack.wav</file>
+        <file>mp3/music.wav</file>
+        <file>mp3/hurt.wav</file>
+    </qresource>
+</RCC>

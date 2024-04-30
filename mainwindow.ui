@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>699</width>
+    <height>598</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="attackBtn">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>540</y>
+      <width>171</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>攻击(鼠标左键)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="flipBtn">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>540</y>
+      <width>101</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>翻转(E)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="character">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>90</y>
+      <width>141</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ctrlBtn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>540</y>
+      <width>101</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>暂停(ESC)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="healthLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>91</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Print</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>HP:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="score">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>30</y>
+      <width>161</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Print</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>score:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="isShowFrameBtn">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>540</y>
+      <width>131</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>显示判定框(S)</string>
+    </property>
+   </widget>
+   <widget class="QScrollArea" name="bar">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>701</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>699</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <widget class="QPushButton" name="exitBtn">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>0</y>
+        <width>40</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe Print</family>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>exit</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="minBtn">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>0</y>
+        <width>40</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe Print</family>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>min</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="tipsBtn">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>0</y>
+        <width>40</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe Print</family>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>tips</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="topBtn">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>0</y>
+        <width>40</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe Print</family>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>top</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
